@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Morgan Motors</title>
+    <link rel="stylesheet" href="dist/css/bootstrap.css">
+    <script src="dist/js/bootstrap.js"></script>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <!-- section 1 -->
+        <section class="row">
+            <div class="col-md-12">
+                <!-- Nav will carry all the contents of the navbar -->
+                <nav class="navbar navbar-expand-md navbar-light bg-light">
+                    <!-- navbar-brand shows the brand or the name of the website -->
+                    <a href="#" class="navbar-brand"><b>Morgan Motors</b></a>
+                    <!-- navbar-toggler only shows when the navbar is collapsed -->
+                    <!-- data-bs-toggle="collapse" shows the button will show/hide something -->
+                    <!-- data-bs-target points to which element should expand/collapse -->
+                    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarcollapse">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <!-- hides content on a small device -->
+                    <!-- navbar-collapse alligns the navbar items when expanded -->
+                    <!-- id connects to the button so that when its clickes it expands on small device -->
+                    <div class="collapse navbar-collapse" id="navbarcollapse">
+                        <!-- navbar-nav ensures correct spacing and alignment -->
+                        <div class="navbar-nav">
+                            <!-- nav-link style each link and active shows the active link -->
+                            <a href="index.html" class="nav-link "> Home</a>
+                            <a href="beddings.html" class="nav-link active">Beddings</a>
+                            <a href="#" class="nav-link">Fashion</a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </section>
+        <!-- end of section 1 -->
+
+
+        <!-- section 2 -->
+        <section class="row mb-2 mt-2">
+            <div class="col-md-12">
+                <div class="carousel slide" data-bs-ride="carousel" id="mycarousel">
+                    <!-- wrapper -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images/sliide1.png" alt="mercedes1" class="w-100 d-block" height="500">
+                        </div>
+                        <div class=" carousel-item">
+                            <img src="images/slide3.png" alt="suzukijimny" class="w-100 d-block" height="500">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/slide2.png" alt="suzuki1" class="w-100 d-block" height="500">
+
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/slide3.png" alt="toyota4" class="w-100 d-block" height="500">
+                        </div>
+
+
+                    </div>
+                    <!-- controllers -->
+                    <a href="#mycarousel" data-bs-slide="prev" class="carousel-control-prev">
+                        <span class="carousel-control-prev-icon bg-danger"></span>
+                    </a>
+                    <a href="#mycarousel" data-bs-slide="next" class="carousel-control-next">
+                        <span class="carousel-control-next-icon bg-danger"></span>
+                    </a>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- end ofsection 2 -->
+
+        <!-- section toyota -->
+        <h4 style="text-decoration: overline;">toyota</h4>
+        <section class="row">
+            <div class="col-md-4">
+                <div class="card shadow" style="background-color: black;">
+                    <div class="card-header">
+                        <h6>Toyota Vitz</h6>
+
+                    </div>
+                    <div class="card-body">
+                        <img src="images/toyota1.jpg" alt="toyota1" width="100%" height="300px">
+                    </div>
+                    <div class="card-footer">
+                        <p class="text-light">Fuel efficient as it has an engine capacity of 1000cc-1500cc
+                            with 3-5 doors</p>
+                        <b>Ksh700,000 to 2,000,000</b> <br>
+                        <span class="badge bg-dark">10%OFF</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-md-4">
+                <div class="card shadow" style="background-color: black;">
+                    <div class="card-header">
+                        <h6>Toyota Landcruiser V8</h6>
+
+                    </div>
+                    <div class="card-body">
+                        <img src="images/toyota4.jpg" alt="toyota4" width="100%" height="300px">
+                    </div>
+                    <div class="card-footer">
+                        <p class="text-light">luxurios with offroad features and an engine capacity of 4.5 disel and petrol engine</p>
+                        <b>Ksh4,500,000</b> <br>
+                        <span class="badge bg-dark">15%OFF</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-md-4">
+                <div class="card shadow" style="background-color: black;">
+                    <div class="card-header">
+                        <h6>Toyota Prius</h6>
+                    </div>
+                    <div class="card-body">
+                        <img src="images/toyota2.jpg" alt="toyota2" width="100%" height="300px">
+
+                    </div>
+                    <div class="card-footer">
+                        <p class="text-light">Has both electric and petrol engine and advance saftey toyota sensors</p>
+                        <b>Ksh 2,000,000</b> <br>
+                        <span class="badge bg-dark">10%OFF</span>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- end of section toyota -->
+
+
+        <!-- section suzuki -->
+        <h4>suzuki</h4>
+        <section class="row">
+            <div class="col-md-4">
+                <div class="card shadow" style="background-color: slategrey;">
+                    <div class="card-header">
+                        <h6>Suzuki Swift</h6>
+
+                    </div>
+                    <div class="card-body">
+                        <img src="images/suzuki2.jpg" alt="suzuki2" height="300px" width="100%">
+
+                    </div>
+                    <div class="card-footer">
+                        <p class="text-light">Has sport mode with a 1500cc capacity engine and saves on fuel with a manual transmission
+                            gear</p>
+                        <b>Ksh 1,200,000</b> <br>
+                        <span class="badge bg-dark">5%OFF</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 text-center">
+                <div class="card shadow" style="background-color: slategray;">
+                    <div class="card-header">
+                        <h6>Suzuki Jimny</h6>
+                    </div>
+                    <div class="card-body">
+                        <img src="images/suzukijimny.jpeg" alt="suzukijimny" width="100%" height="300px">
+
+                    </div>
+                    <div class="card-footer">
+                        <p class="text-light">Has an engine capacity of 1500cc with offroad4*4 wheels with atwin turbo transmission power
+                        </p>
+                        <b>Ksh 1,999,999</b> <br>
+                        <span class="badge bg-dark">10%OFF</span>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-md-4 text-center">
+                <div class="card shadow" style="background-color: slategrey;">
+
+                    <div class="card-header">
+                        <h6>suzuki Alto</h6>
+                    </div>
+                    <div class="card-body">
+                        <img src="images/suzuki4.jpg" alt="suzuki4" width="100%" height="300px">
+
+                    </div>
+                    <div class="card-footer">
+                        <p class="text-light"> Has 4 doors with 7 seats and an engine capacity of 1500cc saves on fuel consumption</p>
+                        <b> Ksh 999,999</b> <br>
+                        <span class="badge bg-dark">10%OFF</span>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- end of section Suzuki -->
+
+
+        <!-- section Mercedes -->
+        <h4>Mercedes Benz</h4>
+        <section class="row">
+            <div class="col-md-4">
+                <div class="card shadow" style="background-color: darkred;">
+                    <div class="card-header">
+                        <h6>Mercedes G80 wagon</h6>
+
+                    </div>
+                    <div class="card-body">
+                        <img src="images/mercedes1.avif" alt="mercedes1" height="350px" width="100%">
+
+                    </div>
+                    <div class="card-footer">
+                        <p class="text-light">Has an offroad feature with a disel engine capacity 2500cc 4seater with 4 doors</p>
+                        <b>Ksh 9,500,000</b> <br>
+                        <span class="badge bg-dark">5%OFF</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-md-4 text-center">
+                <div class="card shadow" style="background-color: darkred;">
+
+                    <div class="card-header">
+                        <h6>Mercedes c200</h6>
+                    </div>
+                    <div class="card-body">
+                        <img src="images/mercedes2.avif" alt="mercedes2" width="100%" height="350px">
+
+                    </div>
+                    <div class="card-footer">
+                        <p class="text-light">Engine capacity of 2500cc with a disel or petrol option</p>
+                        <b>Ksh 4,999,999</b> <br>
+                        <span class="badge bg-dark">10%OFF</span>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-md-4 text-center">
+                <div class="card shadow" style="background-color: darkred;">
+
+                    <div class="card-header">
+                        <h6>Mercedes c250</h6>
+                    </div>
+                    <div class="card-body">
+                        <img src="images/c250benz4.avif" alt="c250benz4" width="100%" height="350px">
+
+                    </div>
+                    <div class="card-footer">
+                        <p class="text-light"> Has an engine capacity of 2500cc with a petrol engine with luxury leather sits</p>
+                        <b> Ksh 6,999,999</b> <br>
+                        <span class="badge bg-dark">10%OFF</span>
+
+                    </div>
+                </div>
+
+            </div>
+
+
+            
+        </section>
+
+        <!-- end of mercedes section -->
+
+
+        <!--section nissan  -->
+        <h4>Nissan</h4>
+        <section class="row">
+            <div class="col-md-3">
+                <div class="card shadow" style="background-color: black;">
+                    <div class="card-header">
+                        <h6 class="text-light">Nissan x-trail</h6>
+
+                    </div>
+                    <div class="card-body">
+                        <img src="images/nissanx-trail.avif" alt="nissanx-trail" height="300px" width="100%">
+
+                    </div>
+                    <div class="card-footer">
+                        <p class="text-light">Has an offroad feature with a disel engine.its a 4-seater vehicle </p>
+                        <b>Ksh 4,500,000</b> <br>
+                        <span class="badge bg-dark">5%OFF</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-md-3 text-center">
+                <div class="card shadow" style="background-color: black;">
+
+                    <div class="card-header">
+                        <h6 class="text-light">Nissan Patrol</h6>
+                    </div>
+                    <div class="card-body">
+                        <img src="images/nissanpatrol.avif" alt="nissanpatrol" width="100%" height="300px">
+
+                    </div>
+                    <div class="card-footer">
+                        <p class="text-light">Engine capacity of 2500cc with a disel ,offroad wheels </p>
+                        <b>Ksh 3,999,999</b> <br>
+                        <span class="badge bg-dark">10%OFF</span>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-md-3 text-center ">
+                <div class="card shadow" style="background-color: black;">
+
+                    <div class="card-header">
+                        <h6 class="text-light">Nissan hatchback</h6>
+                    </div>
+                    <div class="card-body">
+                        <img src="images/nissan1.avif" alt="c250benz4" width="100%" height="300px">
+
+                    </div>
+                    <div class="card-footer">
+                        <p class="text-light"> Has an engine capacity of 2500cc with a petrol engine with luxury leather
+                            sits</p>
+                        <b> Ksh 4,999,999</b> <br>
+                        <span class="badge bg-dark">10%OFF</span>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-md-3 text-center ">
+                <div class="card shadow" style="background-color: black;">
+
+                    <div class="card-header">
+                        <h6 class="text-light">Nissan gtr</h6>
+                    </div>
+                    <div class="card-body">
+                        <img src="images/gtr nissan.avif" alt="gtr" width="100%" height="300px">
+
+                    </div>
+                    <div class="card-footer">
+                        <p class="text-light"> Has an engine capacity of 2500cc with a petrol engine with luxury leather
+                            sits</p>
+                        <b> Ksh 4,999,999</b> <br>
+                        <span class="badge bg-dark">10%OFF</span>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- end of section Nissan -->
+
+
+
+        <!-- section BMW -->
+         <h6>BMW</h6>
+         <section class="row">
+            <div class="col-md-3">
+                <div class="card shadow" style="background-color:aquamarine;">
+                    <div class="card-header">
+                        <h6 class="text-dark">BMW m5</h6>
+
+                    </div>
+                    <div class="card-body">
+                        <img src="images/bmw m5.avif" alt="bmw m5" height="300px" width="100%">
+
+                    </div>
+                    <div class="card-footer">
+                        <p class="text-dark">Has an offroad feature with a disel engine.its a 4-seater vehicle </p> 
+                        <b>Ksh 5,500,000</b> <br>
+                        <span class="badge bg-dark">5%OFF</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-md-3 text-center">
+                <div class="card shadow" style="background-color: aquamarine;">
+
+                    <div class="card-header">
+                        <h6 class="text-dark">BMW M4</h6>
+                    </div>
+                    <div class="card-body">
+                        <img src="images/bmwm4 1.avif" alt="bmw m4" width="100%" height="300px">
+
+                    </div>
+                    <div class="card-footer">
+                        <p class="text-dark">Engine capacity of 2500cc with a disel ,offroad wheels </p>
+                        <b>Ksh 4,999,999</b> <br>
+                        <span class="badge bg-dark">10%OFF</span>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-md-3 text-center ">
+                <div class="card shadow" style="background-color:aquamarine;">
+
+                    <div class="card-header">
+                        <h6 class="text-dark">BMW X3</h6>
+                    </div>
+                    <div class="card-body">
+                        <img src="images/bmwx3.avif" alt="bmwx3" width="100%" height="300px">
+
+                    </div>
+                    <div class="card-footer">
+                        <p class="text-dark">Luxury compact SUV offering range of efficient petrol,disel and premior interior and comfortness</p>
+                        <b> Ksh 6,999,999</b> <br>
+                        <span class="badge bg-dark">10%OFF</span>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-md-3 text-center ">
+                <div class="card shadow" style="background-color:aquamarine;">
+
+                    <div class="card-header">
+                        <h6 class="text-dark">BMW X6</h6>
+                    </div>
+                    <div class="card-body">
+                        <img src="images/bmwx6.avif" alt="gtr" width="100%" height="300px">
+
+                    </div>
+                    <div class="card-footer">
+                        <p class="text-dark"> Has an engine capacity of 2500cc with a petrol engine with luxury leather
+                            sits</p>
+                        <b> Ksh 13,999,999</b> <br>
+                        <span class="badge bg-dark">10%OFF</span>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- end of section BMW -->
+
+
+        <!-- section mazda -->
+         <h6>mazda</h6>
+            <section class="row">
+            <div class="col-md-3">
+                <div class="card shadow" style="background-color:aquamarine;">
+                    <div class="card-header">
+                        <h6 class="text-dark">BMW m5</h6>
+
+                    </div>
+                    <div class="card-body">
+                        <img src="images/bmw m5.avif" alt="bmw m5" height="300px" width="100%">
+
+                    </div>
+                    <div class="card-footer">
+                        <p class="text-dark">Has an offroad feature with a disel engine.its a 4-seater vehicle </p> 
+                        <b>Ksh 5,500,000</b> <br>
+                        <span class="badge bg-dark">5%OFF</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+
+        <!-- section footer -->
+        <section class="row bg-dark text-center p-4 mt-4 text-light">
+            <div class="col-md-4">
+                <h4 class="text-center">About us</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus explicabo
+                    ipsa eligendi eos. Sunt accusantium et facilis dolorum expedita repudiandae!
+                </p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit dolor eos
+                    aperiam modi minima cupiditate distinctio asperiores aliquam earum fuga?</p>
+
+            </div>
+
+            <div class="col-md-4">
+                <h4 class="text-center">Contact us</h4>
+                <form action="">
+                    <input type="email" class="form-control" placeholder="Enter your email">
+                    <br>
+                    <textarea name="" id="" cols="30" rows="5" placeholder="leave a comment"
+                        class="form-control"></textarea> <br>
+                    <input type="submit" value="send message" class="btn btn-danger">
+                </form>
+
+            </div>
+
+            <div class="col-md-4 text-center">
+                <h4>Stay connected</h4>
+                <a href="https://www.facebook.com"><img src="images/fb.png" alt=""></a>
+                <a href="https://www.instagram.com"><img src="images/in.png" alt=""></a>
+                <a href="https://www."><img src="images/x.png" alt=""></a>
+                <p class="mt-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro
+                    illo maxime molestiae incidunt natus cumque blanditiis odio quidem autem
+                    officia.</p>
+
+
+            </div>
+
+        </section>
+
+        <section class=" row bg-dark text-light p-4 text-center">
+            <h4 class="fs-6">Created by Bradley. &copy; 2026. All Rights Reseverd</h4>
+        </section>
+
+
+
+    </div>
+
+</body>
+
+</html>
